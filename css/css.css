@@ -1,0 +1,33 @@
+
+        body {
+            background: linear-gradient(#f4f7f8 0%, #b7b8ca 100%); 
+         
+          }
+          h1{
+            text-align: center;
+            color: rgba(44,55,110,0.8);
+            margin: 0.5%;
+            padding: 0.5%;
+          }
+          header{
+            width: 70%;
+            margin: auto 14% ;
+            background: linear-gradient(#d1c25f 0%,#b0b328 100%);
+            
+          }
+       
+          
+          p:first-child{
+            text-align: center;
+            font: 175%;
+            color: rgb(10, 20,200);
+          }
+          h2 {
+            text-align: center;
+              color: #e0bf51;
+          }
+          h4 {
+              margin-top:7%;
+          }
+          
+  

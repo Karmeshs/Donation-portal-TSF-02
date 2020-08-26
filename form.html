@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+<title>Donation Form</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" rel="stylesheet" />
+    <style>
+        body{
+            margin-top: 5%;
+        }
+        h4{
+            text-align: center;
+        }
+    </style>
+
+
+    
+</head>
+<body>
+<div class="container">
+    <div class="col-xs-6 col-xs-offset-3">
+        <div class="panel panel-default">
+            <div class="panel-heading" class="single_input wow fadeInUp" data-wow-duration="1s">
+            
+                <h2 class="text-center">Donation Form </h2>
+                <h4>Auctronics</h4>
+            </div>
+            <div class="panel-body">
+            <form action="payment.php" method="post">
+                <div class="form-group" >
+                    <input type="text" class="form-control form-control-lg"  name="Name" size="20" maxlength="20" autocomplete="off" tabindex="1" placeholder="Full Name" required>
+                </div>
+                
+                <div class="form-group">
+                    <input type="Email" class="form-control form-control-lg"  name="Email" maxlength="25" size="12"  autocomplete="off" tabindex="3" placeholder="Email" required >
+                </div>
+                <div class="form-group">
+                    <input type="number" class="form-control form-control-lg" name="phone" autocomplete="off" tabindex="5"  placeholder="Phone Number(10 digits)" required>
+                </div>
+               
+                <div class="form-group">
+                    <input type="number" class="form-control form-control-lg" name="Amount" autocomplete="off" tabindex="5"  placeholder="Amount in Rupees" required>
+                </div>
+                <div class="form-group">
+                    <input type="submit" name="submit" value="Donate" class="btn btn-success btn-lg">
+                </div>
+            </form>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
